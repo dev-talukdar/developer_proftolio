@@ -23,6 +23,7 @@
     background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right, left; 
+    width: auto;
 
 }
     
@@ -30,7 +31,7 @@
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 50px 200px;
+  padding: 50px 200px;
 }
 
 .nav-title {
@@ -52,9 +53,10 @@ nav li {
 .banner{
     display: flex;
     align-items: center; 
-    margin: 0 200px;
-
+    margin: 0 200px; 
 }
+
+ 
 
 .banner-title{
     font-weight: 700;
@@ -207,13 +209,15 @@ main{
     gap: 100px;
     background-color: #FFF8F3;
     padding: 130px 200px;
+    align-items: center;
 }
 
 .contact .section-title{
     text-align: left;
+    display: flex;
 }
 
-.contact input[type="text"], input[type="email"] , textarea{
+.contact input[type="text"], input[type="email"], textarea{
     margin-bottom: 24px;
     border: 0;
     width: 100%;
@@ -226,6 +230,5 @@ input{
 }
 
 .icons{
-    margin-top: 30px;
-    
+    margin-top: 30px;    
 }
